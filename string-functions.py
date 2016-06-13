@@ -48,3 +48,5 @@ print position
 sppos = data.find(' ', position)
 print sppos
 
+host = data[position+1:sppos]
+print host
