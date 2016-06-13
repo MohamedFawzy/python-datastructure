@@ -23,3 +23,28 @@ name = 'Mohamed FAWZY'
 print name.lower() # to lower case
 print 'HEY'.upper() + ' '+ name.lower()
 
+#search string
+pos = fruit.find('le') # return position for element in string index
+pos1 = fruit.find('z')
+print pos
+print pos1 # -1 in case not exist in string
+name2 = name.replace('Mohamed', 'User') # replace string with another one
+print name2
+
+greet = '  Hello Foozy ! '
+print greet.lstrip() # remove space from leftside
+print greet.rstrip()  # remove space from rightside
+print greet.strip() # remove spaces from right and leftisde
+
+line = 'Please have a nice day'
+print line.startswith('Please')
+print line.startswith('p')
+
+data = "From mohamed@example.com Sat Jan 5 06:14:16 2016"
+
+position = data.find('@')
+print position
+
+sppos = data.find(' ', position)
+print sppos
+
